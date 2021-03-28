@@ -7,7 +7,7 @@ pipeline {
                 dir("Module1")
                         {
                             git branch: "master",
-                                    credentialsId: 'serdarceran',
+                                    credentialsId: 'ceranbsgithub',
                                     url: 'git@github.com:serdarceran/cucumber-java-selenium-webdriver-example.git'
                         }
             }
@@ -19,7 +19,7 @@ pipeline {
                 dir("Module2")
                         {
                             git branch: "master",
-                                    credentialsId: 'serdarceran',
+                                    credentialsId: 'ceranbsgithub',
                                     url: 'git@github.com:serdarceran/Kalah.git'
                         }
             }
